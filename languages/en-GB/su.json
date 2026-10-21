@@ -1,0 +1,12 @@
+{
+	"title": "Switch User",
+	"description": "Search for a user and switch the current session to that account. The session is regenerated and the page will reload.",
+	"search-label": "Username",
+	"search-placeholder": "Type a username to search…",
+	"no-users": "No users found.",
+	"switch-button": "Switch to this user",
+	"switching": "Switching…",
+	"error-invalid-uid": "Invalid user id.",
+	"error-not-admin": "You must be an administrator to use this feature.",
+	"error-user-not-found": "User not found."
+}
