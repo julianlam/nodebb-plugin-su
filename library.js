@@ -11,6 +11,7 @@ export async function init(params) {
 export async function addRoutes({ router, middleware }) {
 	const middlewares = [
 		middleware.ensureLoggedIn,
+		middleware.admin.checkPrivileges,
 	];
 
 	routeHelpers.setupApiRoute(router, 'post', '/su/switch', middlewares, controllers.switchUser);
