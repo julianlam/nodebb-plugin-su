@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-su",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Switch the current admin session to another user account",
   "main": "library.js",
   "repository": {
